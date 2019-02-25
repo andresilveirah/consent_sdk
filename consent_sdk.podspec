@@ -43,4 +43,6 @@ TODO: Add long description of the pod here.
   s.static_framework   = true
   s.dependency 'ConsentWebView'
   s.dependency 'Google-Mobile-Ads-SDK'
+  s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.6'
+  s.dependency 'FBAudienceNetwork', '4.28.1'
 end

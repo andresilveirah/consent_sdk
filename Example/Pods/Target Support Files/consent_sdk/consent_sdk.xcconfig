@@ -1,7 +1,8 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/consent_sdk
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ConsentWebView" "${PODS_ROOT}/Google-Mobile-Ads-SDK/Frameworks/frameworks"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds" "${PODS_CONFIGURATION_BUILD_DIR}/ConsentWebView" "${PODS_ROOT}/Google-Mobile-Ads-SDK/Frameworks/frameworks" "${PODS_ROOT}/FBAudienceNetwork"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Google-Mobile-Ads-SDK/Libraries"
+OTHER_LDFLAGS = -framework "GoogleInteractiveMediaAds"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

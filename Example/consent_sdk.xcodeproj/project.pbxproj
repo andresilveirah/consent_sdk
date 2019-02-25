@@ -329,12 +329,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-consent_sdk_Example/Pods-consent_sdk_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ConsentWebView/ConsentWebView.framework",
+				"${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds/GoogleInteractiveMediaAds.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ConsentWebView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleInteractiveMediaAds.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

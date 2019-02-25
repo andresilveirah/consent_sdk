@@ -26,6 +26,12 @@
     ],
     "Google-Mobile-Ads-SDK": [
 
+    ],
+    "GoogleAds-IMA-iOS-SDK": [
+      "~> 3.6"
+    ],
+    "FBAudienceNetwork": [
+      "4.28.1"
     ]
   }
 }
