@@ -1,0 +1,6 @@
+framework module consent_sdk {
+  umbrella header "consent_sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

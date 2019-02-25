@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'consent_sdk_Example' do
+  pod 'consent_sdk', :path => '../'
+
+  target 'consent_sdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,31 @@
+{
+  "name": "consent_sdk",
+  "version": "0.1.0",
+  "summary": "A short description of consent_sdk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/andresilveirah/consent_sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "andresilveirah": "andresilveirah@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/andresilveirah/consent_sdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "consent_sdk/Classes/**/*",
+  "static_framework": true,
+  "dependencies": {
+    "ConsentWebView": [
+
+    ],
+    "Google-Mobile-Ads-SDK": [
+
+    ]
+  }
+}
