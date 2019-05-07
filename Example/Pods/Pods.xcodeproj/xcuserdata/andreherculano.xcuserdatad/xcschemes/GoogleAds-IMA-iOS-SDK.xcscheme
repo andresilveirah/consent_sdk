@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F11F5C6355E7BB763494F1D6FC046D5"
-               BuildableName = "Pods-consent_sdk_Example.framework"
-               BlueprintName = "Pods-consent_sdk_Example"
+               BlueprintIdentifier = "7362DAB47E2EFA5452F30DD7E9830B56"
+               BuildableName = "GoogleAds-IMA-iOS-SDK"
+               BlueprintName = "GoogleAds-IMA-iOS-SDK"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

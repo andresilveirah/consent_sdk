@@ -324,23 +324,21 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-consent_sdk_Example/Pods-consent_sdk_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ConsentWebView/ConsentWebView.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-consent_sdk_Example/Pods-consent_sdk_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ConsentViewController/ConsentViewController.framework",
 				"${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds/GoogleInteractiveMediaAds.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ConsentWebView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ConsentViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleInteractiveMediaAds.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-consent_sdk_Example/Pods-consent_sdk_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-consent_sdk_Example/Pods-consent_sdk_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D8F72748D48F0D3CBDDCC63C /* [CP] Check Pods Manifest.lock */ = {

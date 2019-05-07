@@ -21,7 +21,7 @@
   "source_files": "consent_sdk/Classes/**/*",
   "static_framework": true,
   "dependencies": {
-    "ConsentWebView": [
+    "ConsentViewController": [
 
     ],
     "Google-Mobile-Ads-SDK": [

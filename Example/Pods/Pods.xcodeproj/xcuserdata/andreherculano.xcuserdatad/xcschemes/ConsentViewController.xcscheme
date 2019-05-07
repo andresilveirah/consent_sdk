@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F11F5C6355E7BB763494F1D6FC046D5"
-               BuildableName = "Pods-consent_sdk_Example.framework"
-               BlueprintName = "Pods-consent_sdk_Example"
+               BlueprintIdentifier = "374151914BA6B7C6A7C04A46512F48FA"
+               BuildableName = "ConsentViewController.framework"
+               BlueprintName = "ConsentViewController"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

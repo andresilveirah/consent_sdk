@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3ABA51050D84C3E9ABEA958286AF3079"
-               BlueprintName = "ConsentWebView"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "ConsentWebView.framework">
+               BlueprintIdentifier = "D53454FBB630479B01CA0A777383E94F"
+               BuildableName = "FBAudienceNetwork"
+               BlueprintName = "FBAudienceNetwork"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

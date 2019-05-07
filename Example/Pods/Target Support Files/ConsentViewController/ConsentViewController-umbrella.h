@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ConsentWebViewVersionNumber;
-FOUNDATION_EXPORT const unsigned char ConsentWebViewVersionString[];
+FOUNDATION_EXPORT double ConsentViewControllerVersionNumber;
+FOUNDATION_EXPORT const unsigned char ConsentViewControllerVersionString[];
 
